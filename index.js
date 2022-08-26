@@ -17,7 +17,7 @@ app.use(
     schema: stitchSchemas({
       subschemas: [{ schema }],
     }),
-    graphiql: true,
+    graphiql: false,
   })
 );
 
